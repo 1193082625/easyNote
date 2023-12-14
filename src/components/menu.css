@@ -1,0 +1,65 @@
+.menu-box{
+  background-color: #efeff2;
+  position: relative;
+  height: 100vh;
+}
+.create-note{
+  background-color: #fff;
+  width: 220px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 30px auto 10px;
+  padding-left: 10px;
+  padding-right: 15px;
+}
+.create-note span{
+  color: #1f1f26;
+  font-size: 14px;
+}
+.create-note span.add-icon{
+  font-size: 26px;
+  color: #21bf01;
+}
+.create-note span.create-type{
+  font-size: 18px;
+  border-left: 1px solid #dcdce6;
+  padding-left: 10px;
+  color: #606068;
+}
+.btn-group{
+  position: absolute;
+  right: 0;
+  bottom: 18px;
+}
+.btn-group span{
+  margin-right: 20px;
+  color: #a5a5b3;
+}
+.ant-menu-item-selected {
+  color: #fff; /* 选中后的文字颜色 */
+}
+.ant-menu-item-selected,
+.ant-menu-submenu-selected .ant-menu-submenu-title,
+.ant-menu-submenu-selected .ant-menu-submenu-title{
+  color: #21bf01!important;
+}
+.active-box{
+  width: 25px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #efeff2;
+  border-radius: 0 5px 5px 0;
+  position: absolute;
+  right: -20px;
+  bottom: 5px;
+}
+.active-box span{
+  font-size: 14px;
+  color: #43434c;
+}

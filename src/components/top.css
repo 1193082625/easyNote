@@ -1,0 +1,50 @@
+.top-box{
+  height: 50px;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 10px;
+  align-items: center;
+  border-bottom: 1px solid #ebebeb;
+}
+.do-undo span{
+  font-size: 14px;
+  color: #b8b8b8;
+}
+.undo{
+  margin-right: 30px;
+}
+.user-photo{
+  width: 30px;
+  height: 30px;
+  display: block;
+  border-radius: 50%;
+}
+.top-right{
+  gap: 20px;
+}
+.top-right .icon{
+  color: #b8b8b8;
+  padding-left: 8px;
+  padding-right: 8px;
+  border-radius: 5px;
+}
+.top-right .icon:hover{
+  background-color: #f4f4f4;
+}
+.top-right .search,
+.top-right .search input{
+  background-color: #f2f2f5;
+}
+.top-right .search{
+  border: none;
+}
+.top-right .search input{
+  font-size: 12px;
+}
+.upgrades{
+  background-color: #fcb200;
+  color: #fff;
+  font-size: 12px;
+  font-weight: bold;
+  border: none;
+}
